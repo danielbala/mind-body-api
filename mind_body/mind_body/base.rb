@@ -59,7 +59,6 @@ module MindBody
       logger.debug("response.success? ============= #{response.success?}    "),
       logger.debug("response.soap_fault ============ #{response.soap_fault?} "),
       logger.debug("response.http_error ============= #{response.http_error?} "),
-      # logger.debug(response.inspect),
       logger.debug("&&&&&&&&&&&&&&&&&&&&&&& END SOAP RESPONSE LOGGING &&&&&&&&&&&&&&&&&&&&&&&")
     end
 
